@@ -1,0 +1,212 @@
+body {
+    background: none !important;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+#container {
+    font-size: 20px;
+    padding: 25px;
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    border: 4.5px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 18px solid #2b72c2;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 390px;
+    height: 485px;
+    
+    background: #2b2a2a;
+}
+
+.topshit {
+    position: absolute;
+}
+
+img.police {
+    position: absolute;
+    width: 60px;
+    left: 50px;
+    top: 58px;
+}
+
+img.police:hover{
+    transition: 0.15s;
+    opacity: 0.5;
+}
+
+.inputlinie {
+    position: absolute;
+    width: 283px;
+    height: 0px;
+    left: 203px;
+    top: 276px;
+    
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.kosten {
+    position: absolute;
+    width: 152px;
+    height: 23px;
+    left: 165px;
+    top: 180px;
+    
+    font-family: 'OpenSans-Light', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    
+    color: #ffffff;
+    
+}
+
+.nakesh {
+    position: absolute;
+    width: 802px;
+    height: 103px;
+    left: 136px;
+    top: 50px;
+    
+    font-family: 'OpenSans-Light', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+    
+    color: #ffffff;
+
+}
+
+.nakesh1 {
+    position: absolute;
+    width: 802px;
+    height: 103px;
+    left: 136px;
+    top: 100px;
+    
+    font-family: 'OpenSans-Light', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 27px;
+    
+    color: #ffffff;
+
+}
+
+
+button.schalten {
+    position: absolute;
+    width: 180.86px;
+    height: 38.44px;
+    left: 125px;
+    top: 409px;
+    
+    background: #4d4d4d;
+    box-sizing: border-box;
+    transform: rotate(0deg);
+    outline: none;
+}
+
+.schalten {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    border-radius: 0px;
+    outline: none;
+    border: none;
+
+}
+
+.schalten:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.schalten:hover {
+    transition: 0.8s;
+    background: #2b72c2;
+}
+
+p.werbunstext {
+
+position: absolute;
+width: 152px;
+height: 23px;
+left: 144px;
+top: 342px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+
+color: #ffffff;
+}
+
+
+img.closebutton{
+    position: absolute;
+width: 22px;
+height: 22px;
+left: 406px;
+top: 10px;
+}
+
+img.closebutton:hover{
+    transition: 0.15s;
+    opacity: 0.5;
+}
+
+input {
+    position: absolute;
+    width: 283px;
+
+    left: 128px;
+    top: 256px;
+    background: none;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+
+.eingabe {
+    position: absolute;
+    width: 283px;
+    font-family: 'Poppins', sans-serif;
+    height: 200px;
+
+    left: 71px;
+    top: 245px;
+    resize: none;
+    color: white;
+    
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color:#2b2929;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #CB0001;
+    border-radius: 20px;
+    -webkit-box-shadow: #2b2929;
+}
