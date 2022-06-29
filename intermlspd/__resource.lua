@@ -12,12 +12,9 @@ files {
     'html/index.js',
     'html/index.css',
     'html/reset.css',
-    'html/fonts.css',
-    'html/img/*.png',
-    'html/fonts/montserrat/*.ttf'
 }
 
 server_scripts {  
     'server.lua',
-    "config.lua"--+
+    "config.lua"
 }
