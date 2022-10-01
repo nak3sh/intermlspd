@@ -16,4 +16,4 @@ Config.Ped = "mp_m_fibsec_01"
 -- Webhook Anpassung
 Config.Webhook = "DEINE WEBHOOK"
 Config.WebhookName = "Polizei Bewerbung"
-Config.IconURL = "DEINE WEBHOOK"
+Config.IconURL = "DEINE WEBURL"
