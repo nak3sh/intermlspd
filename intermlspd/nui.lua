@@ -68,7 +68,7 @@ Citizen.CreateThread(function()
     while true do
 	local ped = PlayerPedId()
         Citizen.Wait(1)
-            if GetDistanceBetweenCoords(GetEntityCoords(ped),  Config.StandX ,Config.StandY ,Config.StandZ, true) < 2 and ESX.PlayerData.job and ESX.PlayerData.job.name == 'unemployed' then-- PED Position
+            if GetDistanceBetweenCoords(GetEntityCoords(ped),  Config.StandX ,Config.StandY ,Config.StandZ, true) < 2 then-- PED Position
                     if IsControlJustReleased(1, 51) then
                         SetDisplay(not display)
                     end
